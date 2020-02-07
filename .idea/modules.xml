@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Gateway.iml" filepath="$PROJECT_DIR$/Gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gateway-common/Gateway-common.iml" filepath="$PROJECT_DIR$/Gateway-common/Gateway-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gateway-core/Gateway-core.iml" filepath="$PROJECT_DIR$/Gateway-core/Gateway-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gateway-dal/Gateway-dal.iml" filepath="$PROJECT_DIR$/Gateway-dal/Gateway-dal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gateway-domain/Gateway-domain.iml" filepath="$PROJECT_DIR$/Gateway-domain/Gateway-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gateway-integration/Gateway-integration.iml" filepath="$PROJECT_DIR$/Gateway-integration/Gateway-integration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gateway-starter/Gateway-starter.iml" filepath="$PROJECT_DIR$/Gateway-starter/Gateway-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gateway-test/Gateway-test.iml" filepath="$PROJECT_DIR$/Gateway-test/Gateway-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Gateway-web/Gateway-web.iml" filepath="$PROJECT_DIR$/Gateway-web/Gateway-web.iml" />
+    </modules>
+  </component>
+</project>

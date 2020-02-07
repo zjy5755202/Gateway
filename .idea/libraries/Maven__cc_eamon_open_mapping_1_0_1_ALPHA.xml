@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: cc.eamon.open:mapping:1.0.1-ALPHA">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/cc/eamon/open/mapping/1.0.1-ALPHA/mapping-1.0.1-ALPHA.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/cc/eamon/open/mapping/1.0.1-ALPHA/mapping-1.0.1-ALPHA-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/cc/eamon/open/mapping/1.0.1-ALPHA/mapping-1.0.1-ALPHA-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

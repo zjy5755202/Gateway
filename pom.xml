@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.9.RELEASE</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>com.zjy</groupId>
+    <artifactId>Gateway</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0</version>
+    <modules>
+        <module>Gateway-dal</module>
+        <module>Gateway-domain</module>
+        <module>Gateway-web</module>
+        <module>Gateway-core</module>
+        <module>Gateway-common</module>
+        <module>Gateway-integration</module>
+        <module>Gateway-starter</module>
+        <module>Gateway-test</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <spring-boot-version>2.1.9.RELEASE</spring-boot-version>
+        <spring-cloud-version>2.1.3.RELEASE</spring-cloud-version>
+        <mybatis-spring-boot-version>1.3.2</mybatis-spring-boot-version>
+        <java.version>1.8</java.version>
+
+        <Gateway-common-version>1.0.0</Gateway-common-version>
+        <Gateway-core-version>1.0.0</Gateway-core-version>
+        <Gateway-dal-version>1.0.0</Gateway-dal-version>
+        <Gateway-domain-version>1.0.0</Gateway-domain-version>
+        <Gateway-web-version>1.0.0</Gateway-web-version>
+        <Gateway-integration-version>1.0.0</Gateway-integration-version>
+        <Gateway-starter-version>1.0.0</Gateway-starter-version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+
+            <dependency>
+                <groupId>com.zjy</groupId>
+                <artifactId>Gateway-common</artifactId>
+                <version>${Gateway-common-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.zjy</groupId>
+                <artifactId>Gateway-core</artifactId>
+                <version>${Gateway-core-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.zjy</groupId>
+                <artifactId>Gateway-dal</artifactId>
+                <version>${Gateway-dal-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.zjy</groupId>
+                <artifactId>Gateway-domain</artifactId>
+                <version>${Gateway-domain-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.zjy</groupId>
+                <artifactId>Gateway-web</artifactId>
+                <version>${Gateway-web-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.zjy</groupId>
+                <artifactId>Gateway-integration</artifactId>
+                <version>${Gateway-integration-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.zjy</groupId>
+                <artifactId>Gateway-starter</artifactId>
+                <version>${Gateway-starter-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-jpa</artifactId>
+                <version>${spring-boot-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-web</artifactId>
+                <version>${spring-boot-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.mybatis.spring.boot</groupId>
+                <artifactId>mybatis-spring-boot-starter</artifactId>
+                <version>${mybatis-spring-boot-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <version>${spring-boot-version}</version>
+                <scope>test</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+                <version>${spring-cloud-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-openfeign</artifactId>
+                <version>${spring-cloud-version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cc.eamon.open</groupId>
+                <artifactId>mapping</artifactId>
+                <version>1.0.1-ALPHA</version>
+            </dependency>
+
+            <dependency>
+                <groupId>cc.eamon.open</groupId>
+                <artifactId>status</artifactId>
+                <version>0.0.1</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger2</artifactId>
+                <version>2.9.2</version>
+            </dependency>
+
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-swagger-ui</artifactId>
+                <version>2.9.2</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+
+</project>

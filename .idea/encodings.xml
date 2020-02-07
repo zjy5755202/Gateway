@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Gateway-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Gateway-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Gateway-dal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Gateway-domain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Gateway-integration" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Gateway-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Gateway-test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Gateway-web" charset="UTF-8" />
+  </component>
+</project>
